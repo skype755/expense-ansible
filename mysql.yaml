@@ -14,7 +14,7 @@
 
 
   - name: connect to mysql server
-    community.mysql.mysql_db:
+    community.mysql.mysql_info:
       login_user: root
       login_password: ExpenseApp@1
       login_host: mysql.dev-ops.chat
