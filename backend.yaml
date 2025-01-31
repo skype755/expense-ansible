@@ -61,4 +61,4 @@
       login_user: root
       login_password: ExpenseApp@1
       login_host: mysql.dev-ops.chat
-      target: mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pExpenseApp@1 < /app/schema/backend.sql
+      target: /app/schema/backend.sql
